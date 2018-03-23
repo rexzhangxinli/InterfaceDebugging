@@ -144,6 +144,7 @@ public class InterfaceTest
 		}
 	}
 
+	//
 	public static String call(String app_id, String app_key, String url, Map<String, Object> parameters)
 			throws Exception
 	{
@@ -171,8 +172,8 @@ public class InterfaceTest
 		Map<String, Object> parameters = new HashMap<String, Object>();
 		parameters.put("pageSize", 10);
 		parameters.put("pageNum", 1);
-		String ruselt = InterfaceTest.call("thisisatest", "vcarecity@0!7",
-			"http://127.0.0.1:9090/v1/alarm_information/list", parameters);
+		String ruselt = InterfaceTest.call("XXXXXXXX", "XXXXXXXXXX",
+			"http://api.vcarefire.com/v1/alarm_information/list", parameters);
 		System.out.print(ruselt);
 
 	}

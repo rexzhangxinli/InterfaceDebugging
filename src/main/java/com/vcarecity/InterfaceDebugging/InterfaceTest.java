@@ -144,7 +144,15 @@ public class InterfaceTest
 		}
 	}
 
-	//
+	/*
+	 * @app_id 用户app_id
+	 * 
+	 * @app_key 用户app_key
+	 * 
+	 * @url 调用的接口地址
+	 * 
+	 * @parameters 请求的参数
+	 */
 	public static String call(String app_id, String app_key, String url, Map<String, Object> parameters)
 			throws Exception
 	{
